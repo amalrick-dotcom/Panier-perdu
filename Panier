@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Panier Perdu : récupère tes paniers abandonnés</title>
+<meta name="description" content="Relance automatique des paniers abandonnés pour petites boutiques Shopify et WooCommerce. 29 € par mois, relances illimitées.">
+<meta property="og:title" content="Panier Perdu : récupère tes paniers abandonnés">
+<meta property="og:description" content="Deux relances écrites, automatiques, pour les petites boutiques. 29 € par mois.">
+<meta property="og:type" content="website">
+<style>
+:root{--vert:#12372a;--orange:#e8590c;--fond:#faf8f4;--texte:#1d1d1b;--gris:#6b6b66}
+*{box-sizing:border-box;margin:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;background:var(--fond);color:var(--texte);line-height:1.5;font-size:18px}
+main{max-width:560px;margin:0 auto;padding:0 20px}
+header{background:var(--vert);color:#fff;padding:36px 20px 40px}
+header div{max-width:560px;margin:0 auto}
+.marque{font-size:14px;letter-spacing:.08em;text-transform:uppercase;opacity:.75;margin-bottom:18px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:34px;line-height:1.15;font-weight:700}
+h2{font-family:Georgia,"Times New Roman",serif;font-size:26px;line-height:1.2;margin:40px 0 14px}
+.sous{margin-top:14px;font-size:19px;opacity:.92}
+.btn{display:block;width:100%;text-align:center;background:var(--orange);color:#fff;text-decoration:none;font-weight:700;font-size:20px;padding:18px 20px;border-radius:10px;margin-top:26px}
+.petit{font-size:14px;color:var(--gris);margin-top:10px;text-align:center}
+header .petit{color:#fff;opacity:.75}
+.chiffre{border-left:5px solid var(--orange);padding:6px 0 6px 16px;margin-top:32px}
+.chiffre b{font-family:Georgia,serif;font-size:30px;display:block}
+ul{padding-left:0;list-style:none}
+li{padding:14px 0;border-bottom:1px solid #e4e0d8}
+li b{display:block}
+.prix{background:#fff;border:2px solid var(--vert);border-radius:12px;padding:22px;margin-top:20px;text-align:center}
+.prix .m{font-family:Georgia,serif;font-size:44px;font-weight:700;color:var(--vert)}
+.garantie{background:#eef3ef;border-radius:10px;padding:16px;margin-top:18px;font-size:16px}
+details{border-bottom:1px solid #e4e0d8;padding:14px 0}
+summary{font-weight:700;cursor:pointer}
+details p{margin-top:8px;color:#444;font-size:17px}
+footer{max-width:560px;margin:50px auto 0;padding:24px 20px 40px;font-size:14px;color:var(--gris);border-top:1px solid #e4e0d8}
+footer a{color:var(--gris);margin-right:14px}
+</style>
+</head>
+<body>
+<header><div>
+<p class="marque">Panier Perdu</p>
+<h1>Récupère les paniers abandonnés de ta boutique, sans rien faire.</h1>
+<p class="sous">Deux relances écrites partent toutes seules à tes visiteurs qui n'ont pas fini leur commande.</p>
+<a class="btn" href="#paiement">Commencer</a>
+<p class="petit">29 € par mois · sans engagement</p>
+</div></header>
+
+<main>
+<div class="chiffre"><b>Plus de la moitié</b>des paniers sont remplis puis abandonnés. Aujourd'hui, ta boutique n'en relance aucun.</div>
+
+<h2>Ce que tu obtiens</h2>
+<ul>
+<li><b>Tes paniers abandonnés, repérés</b>Branché à ta boutique Shopify ou WooCommerce.</li>
+<li><b>Deux relances qui parlent à ton client</b>Écrites à l'avance, espacées, avec le nom du produit laissé dans le panier.</li>
+<li><b>Un code de réduction en option</b>Sur la seconde relance seulement, si tu le souhaites.</li>
+<li><b>Le chiffre d'affaires récupéré</b>Compté en euros, pour voir ce que ça te rapporte.</li>
+</ul>
+
+<h2 id="paiement">Un seul prix, tout inclus</h2>
+<div class="prix">
+<div class="m">29 €<span style="font-size:18px;font-weight:400"> / mois</span></div>
+<p>Soit moins de 1 € par jour. Relances illimitées.</p>
+<a class="btn" href="#">Commencer</a>
+<p class="petit">Sans engagement, résiliable à tout moment</p>
+</div>
+<div class="garantie"><b>Satisfait ou remboursé 14 jours.</b> Si Panier Perdu ne te convient pas, écris à [TON EMAIL] dans les 14 jours suivant ton paiement : tu es remboursé sous 5 jours ouvrés, sans justification.</div>
+
+<h2>Questions fréquentes</h2>
+<details><summary>Est-ce que ça marche pour ma boutique ?</summary><p>Oui si ta boutique tourne sous Shopify ou WooCommerce, même avec quelques dizaines de commandes par mois.</p></details>
+<details><summary>Combien de temps ça me prend ?</summary><p>Quelques minutes pour brancher ta boutique. Ensuite, tu n'as plus rien à faire.</p></details>
+<details><summary>Et si je veux arrêter ?</summary><p>Tu résilies quand tu veux, sans engagement. Dans les 14 premiers jours, tu es remboursé.</p></details>
+<details><summary>À quoi sert exactement ce que je paie ?</summary><p>À l'envoi illimité des deux relances et au suivi, en euros, de ce qu'elles te font récupérer.</p></details>
+</main>
+
+<footer>
+<p><a href="#">Mentions légales</a><a href="#">CGV</a><a href="#">Confidentialité</a></p>
+<p style="margin-top:12px">Panier Perdu · [RAISON SOCIALE] · SIRET [À COMPLÉTER]</p>
+</footer>
+</body>
+</html>
